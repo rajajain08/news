@@ -1,0 +1,11 @@
+.midhead{
+    margin:auto;
+}
+:body{
+    background-color:#fff3f2;
+    
+}
+.scroll{
+    max-height: 90vh;
+    overflow-y: scroll;
+}

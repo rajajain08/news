@@ -23,9 +23,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "/media/misa/data13/edwisor/Angular/news/node_modules/ng2-slim-loading-bar/bundles/style.css",
+              "src/styles.css",
+              "/media/misa/data13/edwisor/Angular/news/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "/media/misa/data13/edwisor/Angular/news/node_modules/jquery/dist/jquery.min.js",
+              "/media/misa/data13/edwisor/Angular/news/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            
+            ]
           },
           "configurations": {
             "production": {

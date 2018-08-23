@@ -1,0 +1,20 @@
+<div class="container" >
+  <div class="row" *ngIf='myResponse.length>0'>
+
+    <div class="card bg-dark text-white card1" *ngFor='let article of myResponse'>
+      <img class="card-img image1 " src= {{article.urlToImage}}
+        alt="">
+      <div class="card-img-overlay">
+        <h5 class="card-title" style="text-decoration:underline" *ngIf="article.title">{{article.title}}</h5>
+        <p class="card-text"*ngIf="article.description">{{article.description}} . . .</p>
+        <p class="card-text" *ngIf="article.author">- {{article.author}}</p>
+      </div>
+    </div>
+    
+    
+    
+  </div>
+  <ng2-slim-loading-bar [color]="'white'" [height]="'4px'"></ng2-slim-loading-bar>
+  
+</div>
+
